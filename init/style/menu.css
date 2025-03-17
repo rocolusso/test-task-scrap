@@ -4088,3 +4088,22 @@ ol.comment-list {
     }
 }
 
+
+
+.header_mobile{
+    display: none !important;
+}
+
+@media (min-width: 768px) {
+    .header_mobile{
+       display: block !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #mai-toggle{
+        display: block !important;
+    }
+}
+
+
